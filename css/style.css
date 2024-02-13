@@ -16,7 +16,7 @@ background-size: cover;
 background-position: center;
 }
 
-.my-from{
+.my-form{
     width: 400px;
     background: transparent;
     border: 2px solid( 255,255,255, .2);
@@ -28,7 +28,7 @@ background-position: center;
 
 }
 
-.my-from h3{
+.my-form h3{
     font-size: 36px;
     text-align: center;
 }
