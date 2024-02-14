@@ -1,13 +1,10 @@
 function criarConta(event) {
     event.preventDefault();
 
-    var meuemail = 'hussein@gmail.com';
-    var minhasenha = '123'; // Certifique-se de que a senha seja uma string
-
-    var email = document.querySelector('.email').value.toLowerCase();
+    var email = document.querySelector('.email').value;
     var password = document.querySelector('.password').value;
 
-    if (email === meuemail && password === minhasenha) {
+    if (email === 'hussein@gmail.com' && password === '123') {
        
         window.location.href ='./html/home.html'
         
