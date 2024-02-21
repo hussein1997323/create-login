@@ -21,4 +21,5 @@ function criarConta(event) {
         // Retorna falso para evitar o envio do formulário
         return false;
     }
+
 }
